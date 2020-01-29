@@ -1,0 +1,31 @@
+{
+  "name": "bender",
+  "version": "2.0.52",
+  "description": "bender is your friend and will gladly generate all the assets you need by optimizing svgs and generating a pdf version! At least that's what you think he does...",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gulp": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.hq.brabbler.ag/design/bender.git"
+  },
+  "author": "Felix Kalkuhl",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "del": "^4.1.1",
+    "gulp": "^4.0.2",
+    "gulp-cheerio": "^0.6.3",
+    "gulp-iconfont": "^10.0.3",
+    "gulp-if": "^2.0.2",
+    "gulp-notify": "^3.2.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-regex-rename": "^0.1.0",
+    "gulp-shell": "^0.7.1",
+    "gulp-svg-fill": "^0.1.1",
+    "gulp-svg-sprite": "^1.5.0",
+    "gulp-svgo": "^2.1.1",
+    "yargs": "^13.2.4"
+  }
+}

@@ -1,0 +1,92 @@
+{
+    "pretty": false,
+    "plugins": [
+      {
+        "name": "removeDoctype"
+      },
+      {
+        "name": "removeXMLProcInst"
+      },
+      {
+        "name": "removeComments"
+      },
+      {
+        "name": "removeMetadata"
+      },
+      {
+        "name": "removeEditorsNSData"
+      },
+      {
+        "name": "cleanupAttrs"
+      },
+      {
+        "name": "convertStyleToAttrs"
+      },
+      {
+        "name": "cleanupIDs"
+      },
+      {
+        "name": "removeUselessDefs"
+      },
+      {
+        "name": "cleanupListOfValues"
+      },
+      {
+        "name": "cleanupNumericValues"
+      },
+      {
+        "name": "convertColors"
+      },
+      {
+        "name": "removeUnknownsAndDefaults"
+      },
+      {
+        "name": "removeNonInheritableGroupAttrs"
+      },
+      {
+        "name": "removeUselessStrokeAndFill"
+      },
+      {
+        "name": "removeViewBox"
+      },
+      {
+        "name": "minifyStyles"
+      },
+      {
+        "name": "removeEmptyText"
+      },
+      {
+        "name": "collapseGroups"
+      },
+      {
+        "name": "convertPathData"
+      },
+      {
+        "name": "convertTransform"
+      },
+      {
+        "name": "removeEmptyAttrs"
+      },
+      {
+        "name": "removeEmptyContainers"
+      },
+      {
+        "name": "mergePaths"
+      },
+      {
+        "name": "removeUnusedNS"
+      },
+      {
+        "name": "sortAttrs"
+      },
+      {
+        "name": "removeTitle"
+      },
+      {
+        "name": "removeDesc",
+        "params": {
+          "removeAny": true
+        }
+      }
+    ]
+  }
